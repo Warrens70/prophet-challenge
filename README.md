@@ -1,4 +1,4 @@
-# prophet-challenge
+# prophet--challenge
 
 Initally we attempted to find Unusual Patterns in hourly Google Search Traffic by reading the search data into a DataFrame, then we sliced the data to just the month of
 
@@ -18,21 +18,12 @@ shifts, the search traffic by one hour. Then created two additional columns “S
 
 company’s stock volatility,“Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis. Finally, we created a time series 
 
-model with Prophet byt setting up a Google search for prophet forecasting model after estimating th emodel and plotted the forecast.
+model with Prophet byt setting up a Google search for prophet forecasting model after estimating th emodel and plotted the forecast.  Based on the results, the graph
 
+shows the busiest periods are typically during late hours, especially closer to midnight. This pattern suggests that users are more active during the evenings, possibly 
 
-Questions:
-After estimating the model, plot the forecast. How's the near-term forecast for the popularity of MercadoLibre?  There is volitility over the years with peaks during 
+due to various factors such as people having more free time after work or other daily activities. However, different time zone and regions will ultimately impact the 
 
-the October however, there will be a trend forecast dip during the month of October 2020 
+search trends. We noticed that there is volitility over the years with peaks during October however, there will be a trend forecast dip during the month of October, 
 
-Plot the individual time series components of the model to answer the following questions in the space provided in the starter file:
-
-What time of day exhibits the greatest popularity?
-00:00:00 exhibits the greatest popularity.
-
-Which day of the week gets the most search traffic?
-Tuesday appears to get the most traffic searches.
-
-What's the lowest point for search traffic in the calendar year?
-October represents the lowest point for search traffic in the calendar year
+which repesents the lowest points for search traffic, while Tuesdays and Midnight (00:00:00) represents that most searched traffic and greatest poplarity points.
